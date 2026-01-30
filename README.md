@@ -26,7 +26,7 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=behrokhnaderi&" alt="behrokhnaderi" /></p>
 
-# Accordion-Menu-By-React
+# First Project
 
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
@@ -36,15 +36,14 @@
 
 - [Demo Project](https://pouria-farahani-developer.github.io/Accordion-Menu-By-React/)
 
-- Developed by pouria farahani
+- Developed by BehrokhNaderi
 
-- Created - 2022-11-26
+- Created - 2026-01-31
 
-- Technologies Used - Html , css , js , React.js
+- Technologies Used - Html , css 
 
 - Hooks Used : useState 
 
 - Role - Frontend
 
-- How to reach me : with my [instagram](https://www.instagram.com/pouria_farahani_developer) and [linkedin](https://www.linkedin.com/in/pouria-farahani-developer)
 
