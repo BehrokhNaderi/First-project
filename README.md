@@ -6,14 +6,14 @@
 
 - [Demo Project](https://behrokhnaderi.github.io/First-project/)
 
-- Developed by BehrokhNaderi
+-🟠 Developed by BehrokhNaderi 🪴
 
-- Created - 2026-01-31
+-🟠 Created - 2026-01-31
 
-- Technologies Used - Html , css 
+-🟠 Technologies Used - Html , css 
 
-- Hooks Used : useState 
+-🟠 Hooks Used : useState 
 
-- Role - Frontend 🪴
+-🟠 Role - Frontend 
 
 
