@@ -1,0 +1,223 @@
+:root {
+  --favcolor: #8f4e35;
+}
+body {
+  background-color: #392224;
+  > header {
+    background-color: #392224;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 24px;
+    > figure {
+      /* border: 1px solid black; */
+      width: 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      > img {
+        /* width: 100%; */
+        /* height: 100%; */
+        object-fit: cover;
+      }
+    }
+    > nav {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      >.number {
+        color: white;
+        font-size: 14px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-right: 0px;
+        user-select: none;
+      }
+      > ul {
+        display: flex;
+        justify-content: right;
+        /* border: 1px solid black; */
+        height: 100%;
+        padding-left: 400px;
+        > li {
+          /* border: 1px solid black; */
+          padding: 0 20px;
+          position: relative;
+          &:hover {
+            &::before {
+              width: 100%;
+            }
+            > a {
+              color: var(--favcolor);
+            }
+          }
+          &::before {
+            content: "";
+            width: 0;
+            height: 2px;
+            display: flex;
+            position: absolute;
+            left: 0;
+            bottom: 10px;
+            transition: 0.3s;
+            background-color: var(--favcolor);
+          }
+          > a {
+            color: white;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            text-transform: capitalize;
+            font-size: 16px;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            transition: 0.3s;
+            position: relative;
+          }
+          &:hover{
+            >ul{
+              opacity: 1;
+              visibility: visible;
+            }
+          }
+          > ul {
+            position: absolute;
+            top: 100px;
+            left: 0;
+            width: 180%;
+            height: 100px;
+            background-color: white;
+            transition: 0.3s;
+            opacity: 0;
+            visibility: hidden;
+            &:hover {
+              opacity: 1;
+            }
+            > li {
+              background-color: white;
+              width: 100%;
+              height: 50px;
+              padding: 10px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              transition: 0.3s;
+              > a {
+                color: black;
+                font-size: 16px;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                text-transform: capitalize;
+                display: flex;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                transition: 0.3s;
+                &:hover {
+                  color: var(--favcolor);
+                }
+              }
+            }
+          }
+        }
+      }
+      
+    }
+    .box {
+        width: 10%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        > a {
+          width: 90%;
+          height: 65%;
+          color: white;
+          background-color: var(--favcolor);
+          font-size: 16px;
+          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          text-transform: capitalize;
+          padding: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+  }
+main{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  >.pic{
+    object-fit: cover;
+    >img{
+      width: 100%;
+      /* border: 3px solid black; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+  }
+  >.box2{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    width: 50%;
+    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+    >h2{
+      /* background-color: rgba(0, 0, 0, 0.462); */
+      color: white;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      text-transform: capitalize;
+      font-size: 90px;
+      position: absolute;
+      bottom: 30%;
+      padding-bottom: 50px;
+      user-select: none;
+    }
+    >p{
+      /* background-color: rgba(255, 0, 0, 0.329); */
+      /* width: 10%; */
+      height: 100px;
+      font-size: 30px;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      padding-bottom: 100px;
+      padding-left:5px ;
+      user-select: none;
+    }
+    >.box3{
+      width: 20%;
+      position: absolute;
+      top: 100%;
+      padding-bottom: 100px;
+      padding-left:50px ;
+      >a{
+        color: white;
+        background-color: var(--favcolor);
+        font-size: 16px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-transform: capitalize;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 15px;
+      }
+    }
+  }
+}
+}
